@@ -37,6 +37,6 @@ go to localhost:4000/api
     }
   }
 }
-``
+```
 
 for more click on "Docs" in the right side of Graphiql
