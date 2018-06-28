@@ -9,7 +9,7 @@ mongoose.connection.once('open', ()=>{
 })
 
 const app = express()
-app.use('/graphql', graphHttp({
+app.use('/api', graphHttp({
   schema,
   graphiql: true
 }))
