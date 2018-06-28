@@ -6,7 +6,7 @@ run `npm install` then `nodemon app`
 go to localhost:4000/api
 
 #Avaialable queries
-``
+```
 {
   books{
     id
@@ -14,9 +14,9 @@ go to localhost:4000/api
     genre
   }
 }
-``
+```
 
-``
+```
 {
   authors{
     id,
@@ -24,9 +24,9 @@ go to localhost:4000/api
     age
   }
 }
-``
+```
 
-``
+```
 {
   book(id: "ID-Of-BOOk"){
     id,
