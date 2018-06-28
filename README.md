@@ -1,12 +1,12 @@
 graphql-mongo-test
 
-##Instalation
+#Instalation
 run `npm install` then `nodemon app`
 
 go to localhost:4000/api
 
-##Avaialable queries
-
+#Avaialable queries
+``
 {
   books{
     id
@@ -14,7 +14,9 @@ go to localhost:4000/api
     genre
   }
 }
+``
 
+``
 {
   authors{
     id,
@@ -22,6 +24,9 @@ go to localhost:4000/api
     age
   }
 }
+``
+
+``
 {
   book(id: "ID-Of-BOOk"){
     id,
@@ -32,5 +37,6 @@ go to localhost:4000/api
     }
   }
 }
+``
 
 for more click on "Docs" in the right side of Graphiql
